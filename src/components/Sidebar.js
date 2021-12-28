@@ -6,7 +6,6 @@ import { Nav, Container } from "react-bootstrap";
 
 import { SidebarData } from "./SidebarData";
 import "./Sidebar.css";
-import { icon } from "@fortawesome/fontawesome-svg-core";
 
 const Sidebar = props => {
   const [sidebar, setSideBar] = useState(false);

@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { ProgressBar, Container, Row, Button } from "react-bootstrap";
-import { useLocation, Route, Routes } from "react-router-dom";
 import "./ProjectsNo.css";
 import project1 from "../assets/czyrahs_pizza.png";
 import project2 from "../assets/pera-o-kahon.png";
@@ -9,8 +8,6 @@ import project4 from "../assets/to-do-list.png";
 // import project5 from "../assets/czyrahs_pizza.png";
 import project6 from "../assets/snack-stop.png";
 import group_project from "../assets/tiny.png";
-import Sidebar from "../components/Sidebar";
-import Footer from "../components/Footer";
 
 const Projects = () => {
   const project_1 = 90;

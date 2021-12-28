@@ -1,8 +1,8 @@
 import React from "react";
 import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
-import { Container, Row, Form, Button } from "react-bootstrap";
+
+import { Container, Row } from "react-bootstrap";
 import "./Contact.css";
 const Contact = () => {
   return (

@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { ProgressBar, Container, Row, Button } from "react-bootstrap";
-import { useLocation, Route, Routes } from "react-router-dom";
+
 import "./Projects123.css";
 import project1 from "../assets/czyrahs_pizza.png";
 import project2 from "../assets/pera-o-kahon.png";
