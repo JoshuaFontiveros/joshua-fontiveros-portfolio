@@ -1,0 +1,33 @@
+.border-black {
+  border: 2px solid black;
+}
+@media (min-width: 375px) {
+  .contact-container,
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contact-container div {
+    font-size: 3rem;
+  }
+  .contact div {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-container {
+    margin-top: 70px;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 317px;
+  }
+}
