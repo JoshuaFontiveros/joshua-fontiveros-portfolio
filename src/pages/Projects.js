@@ -13,12 +13,12 @@ import Sidebar from "../components/Sidebar";
 import Footer from "../components/Footer";
 
 const Projects = () => {
-  const project_1 = 90;
-  const project_2 = 90;
+  const project_1 = 100;
+  const project_2 = 100;
   const project_3 = 100;
   const project_4 = 100;
   const project_5 = 90;
-  const project_6 = 70;
+  const project_6 = 80;
   const project_7 = 90;
 
   return (
@@ -38,18 +38,40 @@ const Projects = () => {
             <span>Czyrah's Pizza Static Website</span>
             <ProgressBar
               className="progress-bar"
-              animated
               variant="success"
               now={project_1}
               label={`${project_1}%`}
               style={{ backgroundColor: "white" }}
             />
-            <Button
-              variant="outline-light"
-              className="view-button"
-              style={{ margin: "10px 0 10px 0" }}>
-              View Project
-            </Button>
+            <Container className="btn-container d-flex justify-content-evenly">
+              <a
+                href="https://czyrahs-pizza.herokuapp.com/"
+                rel="noreferrer"
+                target="_blank"
+                disabled
+              >
+                <Button
+                  variant="outline-light"
+                  className="view-button"
+                  style={{ margin: "10px 0 10px 0" }}
+                >
+                  Website
+                </Button>
+              </a>
+              <a
+                href="https://github.com/JoshuaFontiveros/czyrahs-pizza"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <Button
+                  variant="outline-light"
+                  className="view-button"
+                  style={{ margin: "10px 0 10px 0" }}
+                >
+                  Github
+                </Button>
+              </a>
+            </Container>
           </Container>
           <Container className="empty-container empty">
             <Row className="project-preview">
@@ -73,18 +95,39 @@ const Projects = () => {
             <span>Pera O Kahon JavaScript Game</span>
             <ProgressBar
               className="progress-bar white"
-              animated
               variant="success"
               now={project_2}
               label={`${project_2}%`}
               style={{ backgroundColor: "black" }}
             />
-            <Button
-              className="view-button"
-              variant="outline-dark"
-              style={{ margin: "10px 0 10px 0" }}>
-              View Project
-            </Button>
+            <Container className="btn-container d-flex justify-content-evenly">
+              <a
+                href="https://pera-o-kahon.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="outline-dark"
+                  className="view-button"
+                  style={{ margin: "10px 0 10px 0" }}
+                >
+                  Website
+                </Button>
+              </a>
+              <a
+                href="https://github.com/JoshuaFontiveros/pera-o-kahon"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="outline-dark"
+                  className="view-button"
+                  style={{ margin: "10px 0 10px 0" }}
+                >
+                  Github
+                </Button>
+              </a>
+            </Container>
           </Container>
           <Container className="empty-container empty">
             <Row className="project-preview">
@@ -112,12 +155,34 @@ const Projects = () => {
               now={project_3}
               label={`${project_3}%`}
             />
-            <Button
-              variant="outline-light"
-              className="view-button"
-              style={{ margin: "10px 0 10px 0" }}>
-              View Project
-            </Button>
+            <Container className="btn-container d-flex justify-content-evenly">
+              <a
+                href="https://joshua-f-pokedex.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="outline-light"
+                  className="view-button"
+                  style={{ margin: "10px 0 10px 0" }}
+                >
+                  Website
+                </Button>
+              </a>
+              <a
+                href="https://github.com/JoshuaFontiveros/pokedex"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="outline-light"
+                  className="view-button"
+                  style={{ margin: "10px 0 10px 0" }}
+                >
+                  Github
+                </Button>
+              </a>
+            </Container>
           </Container>
           <Container className="empty-container empty">
             <Row className="project-preview">
@@ -140,12 +205,34 @@ const Projects = () => {
               now={project_4}
               label={`${project_4}%`}
             />
-            <Button
-              variant="outline-dark"
-              className="view-button"
-              style={{ margin: "10px 0 10px 0" }}>
-              View Project
-            </Button>
+            <Container className="btn-container d-flex justify-content-evenly">
+              <a
+                href="https://to-do-list-joshua-f.herokuapp.com/PendingTasks"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="outline-dark"
+                  className="view-button"
+                  style={{ margin: "10px 0 10px 0" }}
+                >
+                  Website
+                </Button>
+              </a>
+              <a
+                href="https://github.com/JoshuaFontiveros/to-do-list-react-app"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="outline-dark"
+                  className="view-button"
+                  style={{ margin: "10px 0 10px 0" }}
+                >
+                  Github
+                </Button>
+              </a>
+            </Container>
           </Container>
           <Container className="empty-container empty">
             <Row className="project-preview">
@@ -177,13 +264,24 @@ const Projects = () => {
               label={`${project_5}%`}
               style={{ backgroundColor: "#fff" }}
             />
-            <Button
-              variant="outline-light"
-              className="view-button"
-              disabled
-              style={{ margin: "10px 0 10px 0" }}>
-              View Project
-            </Button>
+            <Container className="btn-container d-flex justify-content-evenly">
+              <Button
+                variant="outline-light"
+                className="view-button"
+                style={{ margin: "10px 0 10px 0" }}
+                disabled
+              >
+                Website
+              </Button>
+              <Button
+                variant="outline-light"
+                className="view-button"
+                style={{ margin: "10px 0 10px 0" }}
+                disabled
+              >
+                Github
+              </Button>
+            </Container>
           </Container>
           <Container className="empty-container empty">
             <Row className="project-preview">
@@ -213,12 +311,23 @@ const Projects = () => {
               label={`${project_6}%`}
               style={{ backgroundColor: "rgb(0,0,0)" }}
             />
-            <Button
-              variant="outline-dark"
-              className="view-button"
-              style={{ margin: "10px 0 10px 0" }}>
-              View Project
-            </Button>
+            <Container className="btn-container d-flex justify-content-evenly">
+              <Button
+                variant="outline-dark"
+                className="view-button"
+                style={{ margin: "10px 0 10px 0" }}
+                onClick={() => alert("To be deployed soon!")}
+              >
+                Website
+              </Button>
+              <Button
+                variant="outline-dark"
+                className="view-button"
+                style={{ margin: "10px 0 10px 0" }}
+              >
+                Github
+              </Button>
+            </Container>
           </Container>
           <Container className="empty-container empty">
             <Row className="project-preview">
@@ -248,12 +357,24 @@ const Projects = () => {
               label={`${project_7}%`}
               style={{ backgroundColor: "#fff" }}
             />
-            <Button
-              variant="outline-light"
-              className="view-button"
-              style={{ margin: "10px 0 10px 0" }}>
-              View Project
-            </Button>
+            <Container className="btn-container d-flex justify-content-evenly">
+              <Button
+                variant="outline-light"
+                className="view-button"
+                style={{ margin: "10px 0 10px 0" }}
+                onClick={() => alert("To be deployed soon!")}
+              >
+                Website
+              </Button>
+              <Button
+                variant="outline-light"
+                className="view-button"
+                style={{ margin: "10px 0 10px 0" }}
+                onClick={() => alert("To be deployed soon!")}
+              >
+                Github
+              </Button>
+            </Container>
           </Container>
         </Container>
       </div>

@@ -8,6 +8,19 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .contact div a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(0, 0, 0);
+  }
+
+  .contact a:hover {
+    color: rgb(168, 168, 168);
+    transition: 0.5s all ease;
   }
 
   .contact-container div {
@@ -15,6 +28,9 @@
   }
   .contact div {
     font-size: 1rem;
+  }
+  .position-fixed {
+    width: 100vw;
   }
 }
 
@@ -24,10 +40,18 @@
   }
 
   .contact {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
     padding-bottom: 317px;
+
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .contact div {
+    font-size: 2rem;
+  }
+
+  .position-fixed {
+    bottom: 0;
   }
 }
