@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Button, Container, ProgressBar, Row } from "react-bootstrap";
 import "./About.css";
+import Joshua from "../assets/joshua_photo.jpg";
 
 const About = () => {
   const html = 90;
@@ -49,7 +50,8 @@ const About = () => {
             <a
               href="https://www.geeksforgeeks.org/mern-stack/"
               rel="noreferrer"
-              target="_blank">
+              target="_blank"
+            >
               What is MERN Stack?
             </a>
           </span>{" "}
@@ -61,10 +63,23 @@ const About = () => {
         <Container className="skills-container ">
           <Container className="about-me ">
             <h1 className="">About</h1>
-            <p className="">
-              Hello, I am Joshua and I am 25 years old. I am working as an
-              eCommerce Listing Specialist for almost three years now.
-            </p>
+            <div className="img-about-paragraph-container">
+              <div className="img-about">
+                <img src={Joshua} alt="" />
+              </div>
+              <p className="about-paragraph">
+                Hello, I am Joshua and I am 25 years old. I am working as an
+                eCommerce Listing Specialist for almost three years now. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. At rem
+                consequuntur harum enim tenetur vel nobis nesciunt sed numquam
+                optio. Fugit, veritatis ipsa optio alias iure ducimus
+                consectetur eligendi! Inventore. Lorem ipsum dolor, sit amet
+                consectetur adipisicing elit. Exercitationem, vero fugit nostrum
+                dignissimos quod at sed provident vitae dicta deleniti. Odio
+                temporibus molestiae eum fuga, doloribus quaerat possimus quas
+                soluta.
+              </p>
+            </div>
           </Container>
 
           <Container className="progress-container  d-flex justify-content-center align-items-center">

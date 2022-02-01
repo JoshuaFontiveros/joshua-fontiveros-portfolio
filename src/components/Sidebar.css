@@ -20,21 +20,22 @@
   justify-content: flex-end;
   align-items: center;
   position: relative;
+  background-color: rgb(0, 0, 0);
+  /* background-color: rgb(0, 0, 0); */
   /* background-color: rgb(27, 255, 241); */
 }
 
 .name-topbar {
-  color: black;
   display: flex;
   justify-content: flex-start;
-  width: 50vw;
+  width: auto;
+  overflow: hidden;
   position: absolute;
   left: 0;
   top: 0;
   margin: 20px 10px 10px 20px;
 }
 .nav-items-topbar {
-  color: black;
   list-style: none;
   text-decoration: none;
 }
@@ -43,6 +44,7 @@
 }
 
 .nav-item-text {
+  color: #fff;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -67,13 +69,14 @@
 .menu-bars {
   margin-left: 2rem;
   font-size: 1.5rem;
-  height: 100%;
+  height: 70%;
   background: none;
-  color: black;
+  color: #fff;
   position: absolute;
   left: 0;
-  top: 0;
+  bottom: 0;
   z-index: 999;
+  /* border: 2px solid white; */
 }
 
 .menu-bars:hover {
@@ -82,7 +85,7 @@
 }
 .nav-menu {
   background-color: rgb(27, 255, 241);
-  width: 85vw;
+  width: 350px;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -158,8 +161,11 @@ nav img {
   border-radius: 50%;
   margin: 0 auto;
 }
+
 .nav-menu-items li {
   list-style: none;
+  width: 100%;
+  margin-top: 80px;
 }
 .name {
   display: flex;
@@ -178,15 +184,32 @@ nav img {
 }
 
 .name-topbar a,
-.name h3 a {
+.name a {
   text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
   color: rgb(0, 0, 0);
+  width: 100%;
 }
 
 .name-topbar a:hover,
 .name h3 a:hover {
   color: rgb(157, 157, 157);
   transition: 0.5s all ease;
+}
+.nav-text {
+  height: 19px;
+  font-weight: bold;
+}
+
+.name-topbar a,
+.list-data a {
+  color: #fff;
+  margin-right: 20px;
+}
+
+.list-data a {
+  margin-top: 5px;
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 360px) {
@@ -196,17 +219,20 @@ nav img {
   }
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .nav-items-topbar,
-  .name-topbar {
-    display: inherit;
-  }
+@media (min-width: 780px) {
   .menu-bars,
   .nav-menu.active,
   .nav-menu {
     display: none;
   }
+  .nav-items-topbar,
+  .name-topbar {
+    display: inherit;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
 }
 
 /* Large devices (desktops, 992px and up) */

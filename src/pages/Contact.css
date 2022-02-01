@@ -2,25 +2,18 @@
   border: 2px solid black;
 }
 @media (min-width: 375px) {
+  .contact-container {
+    padding-top: 100px;
+  }
   .contact-container,
   .contact {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-decoration: none;
-    list-style: none;
   }
-
-  .contact div a {
-    text-decoration: none;
-    list-style: none;
-    color: rgb(0, 0, 0);
-  }
-
-  .contact a:hover {
-    color: rgb(168, 168, 168);
-    transition: 0.5s all ease;
+  .contact {
+    padding-bottom: 50px;
   }
 
   .contact-container div {
@@ -29,29 +22,58 @@
   .contact div {
     font-size: 1rem;
   }
-  .position-fixed {
-    width: 100vw;
+  .contact a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.9rem;
+  }
+  .contact a:hover {
+    color: rgb(157, 157, 157);
+    transition: 0.5s all ease;
+  }
+  .invisible {
+    display: none;
+  }
+  .down-arrow {
+    font-size: 5rem;
+  }
+  .left-arrow {
+    display: none;
   }
 }
 
 @media (min-width: 768px) {
-  .contact-container {
-    margin-top: 70px;
+  .down-arrow {
+    display: none;
   }
 
-  .contact {
-    padding-bottom: 317px;
-
-    align-items: flex-start;
-    justify-content: space-around;
-    flex-direction: row;
-  }
-
-  .contact div {
+  .contact a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
     font-size: 2rem;
   }
 
-  .position-fixed {
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .contact-details-container {
+    width: 40%;
+  }
+
+  .div-footer {
+    position: absolute;
     bottom: 0;
+    width: 100vw;
+  }
+  .left-arrow {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
   }
 }

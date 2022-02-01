@@ -6,11 +6,19 @@
   border: 5px solid black;
 }
 
+.project-details-container {
+  overflow: hidden;
+}
 @media (min-width: 375px) {
   .projects {
     background-color: rgb(245, 245, 245);
     color: rgb(0, 0, 0);
     width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .project-h1 {
+    margin-top: 100px;
   }
 
   .progress-container {
@@ -60,6 +68,11 @@
     font-size: 1rem;
   }
 
+  .progress-container p {
+    font-size: 1rem;
+    width: 50%;
+  }
+
   .sidebar-hide {
     display: none;
   }
@@ -69,12 +82,22 @@
   }
 }
 
+.project-details-container {
+  overflow: hidden;
+}
+
 @media (min-width: 768px) {
   .projects {
     width: 100vw;
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+
+  .project-h1 {
+    margin-top: 20px;
   }
 
   .main-progress-container {

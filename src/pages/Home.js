@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Sidebar from "../components/Sidebar";
 import About from "./About";
 import ProjectsNo from "../pages-no-nav/ProjectsNo";

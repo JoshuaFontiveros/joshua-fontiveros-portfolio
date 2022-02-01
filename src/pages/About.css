@@ -4,6 +4,7 @@
     background-color: rgb(245, 245, 245);
     width: 100vw;
     flex-direction: column;
+    padding-top: 20px;
   }
 
   .about-me {
@@ -199,6 +200,22 @@
       width: 89vw;
     }
   }
+
+  .img-about-paragraph-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-about img {
+    width: 50vw;
+    border-radius: 50%;
+  }
+  .about-paragraph {
+    width: 60%;
+    margin-top: 10px;
+  }
 }
 
 @media (min-width: 576px) {
@@ -293,6 +310,15 @@
     justify-content: flex-start;
     background-color: #fff;
     margin-top: 25px;
+  }
+
+  .img-about img {
+    width: 15vw;
+    border-radius: 50%;
+  }
+  .about-paragraph {
+    width: 60%;
+    margin-top: 10px;
   }
 }
 
