@@ -1,8 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Sidebar from "../components/Sidebar";
 import About from "./About";
 import ProjectsNo from "../pages-no-nav/ProjectsNo";
-import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -10,7 +9,6 @@ const Home = () => {
       <Sidebar />
       <About />
       <ProjectsNo />
-      <Footer />
     </React.Fragment>
   );
 };

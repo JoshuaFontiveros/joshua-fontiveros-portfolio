@@ -8,7 +8,7 @@ import {
   Tooltip,
 } from "react-bootstrap";
 import { useLocation, Route, Routes } from "react-router-dom";
-import "./Projects123.css";
+import "./Projects.css";
 import project1 from "../assets/czyrahs_pizza.png";
 import project2 from "../assets/pera-o-kahon.png";
 import project3 from "../assets/Pokedex.png";

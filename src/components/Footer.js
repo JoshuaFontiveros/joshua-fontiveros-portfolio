@@ -41,7 +41,8 @@ const Footer = () => {
             <a
               href="https://www.linkedin.com/in/joshua-fontiveros-49a608159/"
               target="_blank"
-              rel="noreferrer">
+              rel="noreferrer"
+            >
               Linkedin
             </a>
           </Row>
@@ -49,7 +50,8 @@ const Footer = () => {
             <a
               href="https://github.com/JoshuaFontiveros"
               target="_blank"
-              rel="noreferrer">
+              rel="noreferrer"
+            >
               Github
             </a>
           </Row>
@@ -57,7 +59,8 @@ const Footer = () => {
             <a
               href="https://drive.google.com/file/d/1hJAV76Q-6tC1ZyIkkl3cXcX87wwGmHZA/view?usp=sharing"
               target="_blank"
-              rel="noreferrer">
+              rel="noreferrer"
+            >
               Resume
             </a>
           </Row>
@@ -67,9 +70,11 @@ const Footer = () => {
           <Row>Web Development</Row>
           <Row>Virtual Assistance</Row>
         </Container>
-      </div>
-      <div className="author">
-        <Row>Joshua Fontiveros &copy; {year} | Images from freepik</Row>
+        <div className="author">
+          <Row className="author-details">
+            Joshua Fontiveros &copy; {year} | Images from freepik
+          </Row>
+        </div>
       </div>
     </React.Fragment>
   );

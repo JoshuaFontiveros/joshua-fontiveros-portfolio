@@ -92,7 +92,7 @@
   position: fixed;
   top: 0;
   left: -100%;
-  transition: 0.5s ease-out;
+  transition: 0.2s ease-out;
   z-index: 999;
 }
 
@@ -103,7 +103,7 @@
 
 .nav-menu.active {
   left: 0;
-  transition: 0.5s all ease;
+  transition: 0.2s all ease;
 }
 
 .nav-text {
@@ -112,7 +112,7 @@
   height: 60px;
   width: 40%;
   margin: 30px 20px 0 0;
-
+  overflow: hidden;
   /* border: 2px solid white; */
 }
 
@@ -165,7 +165,7 @@ nav img {
 .nav-menu-items li {
   list-style: none;
   width: 100%;
-  margin-top: 80px;
+  margin-top: 40px;
 }
 .name {
   display: flex;
@@ -195,7 +195,7 @@ nav img {
 .name-topbar a:hover,
 .name h3 a:hover {
   color: rgb(157, 157, 157);
-  transition: 0.5s all ease;
+  transition: 0.3s all ease;
 }
 .nav-text {
   height: 19px;

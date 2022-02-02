@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
     background-color: rgb(0, 0, 0);
   }
   .quick-links,
@@ -58,7 +59,7 @@
     display: flex;
     justify-content: center;
     background-color: rgb(0, 0, 0);
-    padding-bottom: 15px;
+    width: 100%;
   }
 
   .author div {
@@ -72,8 +73,14 @@
 
 @media (min-width: 768px) {
   .footer {
-    flex-direction: row;
-    align-items: flex-start;
     justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-bottom: 30px;
+  }
+
+  .author {
+    position: absolute;
+    bottom: 0;
   }
 }
