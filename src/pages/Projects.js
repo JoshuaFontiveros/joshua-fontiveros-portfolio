@@ -56,7 +56,6 @@ const Projects = () => {
 
               <ProgressBar
                 className="progress-bar"
-                animated
                 variant="success"
                 now={project_1}
                 label={`${project_1}%`}
@@ -125,7 +124,6 @@ const Projects = () => {
 
               <ProgressBar
                 className="progress-bar white"
-                animated
                 variant="success"
                 now={project_2}
                 label={`${project_2}%`}
@@ -337,7 +335,6 @@ const Projects = () => {
 
               <ProgressBar
                 className="progress-bar"
-                animated
                 variant="success"
                 now={project_5}
                 label={`${project_5}%`}

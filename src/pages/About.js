@@ -17,9 +17,6 @@ const About = () => {
     <React.Fragment>
       <div className="about ">
         <Container className="details-container ">
-          <Container className="about-h1 d-flex justify-content-center flex-column align-items-center">
-            <h1>About</h1>
-          </Container>
           <Container className="name">
             <h2>Hello, my name is Joshua Fontiveros.</h2>
           </Container>
