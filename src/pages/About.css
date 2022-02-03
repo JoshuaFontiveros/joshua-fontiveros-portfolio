@@ -12,10 +12,14 @@
     font-size: 2rem;
     font-weight: bold;
     padding-left: 12px;
+    display: flex;
+    flex-wrap: wrap;
   }
   .details {
     font-size: 1.5rem;
     padding-left: 12px;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .about-me {
