@@ -17,13 +17,19 @@ const About = () => {
   return (
     <React.Fragment>
       <div className="about ">
-        <Container className="details-container ">
-          <Container className="name">
+        <Container
+          className="details-container "
+          style={{ border: "2px solid black" }}
+        >
+          <Container className="name" style={{ border: "2px solid black" }}>
             Hello, my name is Joshua Fontiveros.
           </Container>
         </Container>
-        <Container className="details-container ">
-          <Container className="details">
+        <Container
+          className="details-container "
+          style={{ border: "2px solid black" }}
+        >
+          <Container className="details" style={{ border: "2px solid black" }}>
             Results driven web developer, seeking to use proven ReactJS with
             NodeJS skills to deliver coding excellence
           </Container>
