@@ -94,15 +94,9 @@ const About = () => {
                 time. 
                 <br/>
                 <br/>
-                As we all know, 2020 was a challenging year. At first, it
-                was difficult because I lost my job for three months, and <strong>that
-                didn't stop me. I see that as an opportunity for me to grow not
-                only as a person but also intellectually. I used that time to
-                gain more skills and expertise in remote collaborative tools
-                such as Google Workspace, Microsoft Apps, and Canva for my previous job </strong>. 
-                
-                <br/>
-                <br/>
+               
+      
+               
                 You can
                 view samples of my projects I learned in <strong>Uplift Code Camp</strong> in this portfolio
                 to learn more about your expectations for your next front-end developer <strong>/</strong> full-stack

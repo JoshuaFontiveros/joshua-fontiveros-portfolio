@@ -426,12 +426,9 @@ const Projects = () => {
                     Live Demo
                   </Button>
                 </a>
-                <a
-                  href="https://github.com/JoshuaFontiveros/resto-app"
-                  rel="noreferrer"
-                  target="_blank"
-                >
+                <a>
                   <Button
+                    onClick={() => alert("To be redeployed soon!")}
                     variant="outline-dark"
                     className="view-button"
                     style={{ margin: "10px 0 10px 0" }}
