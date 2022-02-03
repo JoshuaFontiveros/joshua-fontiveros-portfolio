@@ -8,12 +8,14 @@
   }
 
   .name {
-    padding-top: 50px;
+    padding-top: 60px;
     font-size: 2rem;
     font-weight: bold;
+    padding-left: 12px;
   }
   .details {
     font-size: 1.5rem;
+    padding-left: 12px;
   }
 
   .about-me {
