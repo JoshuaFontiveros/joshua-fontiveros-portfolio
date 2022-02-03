@@ -18,12 +18,12 @@ const About = () => {
     <React.Fragment>
       <div className="about ">
         <Container className="details-container ">
-          <Container className="name" style={{ border: "2px solid black" }}>
+          <Container className="name">
             Hello, my name is Joshua Fontiveros.
           </Container>
         </Container>
         <Container className="details-container ">
-          <Container className="details" style={{ border: "2px solid black" }}>
+          <Container className="details">
             Results driven web developer, seeking to use proven ReactJS with
             NodeJS skills to deliver coding excellence
           </Container>
