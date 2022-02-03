@@ -64,11 +64,9 @@
 
   .author div {
     color: #fff;
+    display: flex;
+    flex-wrap: wrap;
   }
-
-  /* .author {
-    padding-top: 20px;
-  } */
 }
 
 @media (min-width: 768px) {

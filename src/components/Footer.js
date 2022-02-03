@@ -72,8 +72,7 @@ const Footer = () => {
         </Container>
         <div className="author" style={{ paddingBottom: "10px" }}>
           <Row className="author-details">
-            Made in ReactJS with a little bit React-Bootstrap. Maintained by
-            Joshua Fontiveros &copy; {year}
+            Maintained by Joshua Fontiveros &copy; {year}
           </Row>
         </div>
       </div>
