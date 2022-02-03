@@ -21,8 +21,7 @@ const About = () => {
           <Container className="name">
             Hello, my name is Joshua Fontiveros.
           </Container>
-        </Container>
-        <Container className="details-container ">
+
           <Container className="details">
             Results driven web developer, seeking to use proven ReactJS with
             NodeJS skills to deliver coding excellence

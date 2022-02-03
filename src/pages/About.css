@@ -17,7 +17,6 @@
   }
   .details {
     font-size: 1.5rem;
-
     display: flex;
     flex-wrap: wrap;
   }
@@ -400,8 +399,4 @@
   .N:hover {
     transform: scale(1.2);
   }
-}
-
-/* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
 }
