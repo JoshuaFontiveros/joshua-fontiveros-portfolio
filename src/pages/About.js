@@ -19,15 +19,13 @@ const About = () => {
       <div className="about ">
         <Container className="details-container ">
           <Container className="name">
-            <h2>Hello, my name is Joshua Fontiveros.</h2>
+            Hello, my name is Joshua Fontiveros.
           </Container>
         </Container>
         <Container className="details-container ">
-          <Container className="d-flex justify-content-start flex-wrap">
-            <h3>
-              Results driven web developer, seeking to use proven ReactJS with
-              NodeJS skills to deliver coding excellence
-            </h3>
+          <Container className="details">
+            Results driven web developer, seeking to use proven ReactJS with
+            NodeJS skills to deliver coding excellence
           </Container>
         </Container>
         {/* <Container className="merc-desc "> */}
