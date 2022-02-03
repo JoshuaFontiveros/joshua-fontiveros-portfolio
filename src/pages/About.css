@@ -3,6 +3,8 @@
   .about {
     background-color: rgb(245, 245, 245);
     width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     padding-top: 20px;
   }
@@ -11,7 +13,6 @@
     padding-top: 60px;
     font-size: 2rem;
     font-weight: bold;
-
     display: flex;
     flex-wrap: wrap;
   }
