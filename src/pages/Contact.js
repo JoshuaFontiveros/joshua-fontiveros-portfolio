@@ -11,6 +11,8 @@ const Contact = () => {
   const whatsapp = useRef(null);
   const discord = useRef(null);
 
+  const [showModal, setShowModal] = useState(false);
+
   const closeEmailHandler = () => {
     setShowEmail(!showEmail);
     setShowWhatsApp(false);
@@ -64,7 +66,7 @@ const Contact = () => {
             </Overlay>
             <div>
               <a
-                href="https://www.facebook.com/FFFonti/"
+                href="https://join.skype.com/invite/QoHuF5WpbDzf"
                 target="_blank"
                 rel="noreferrer"
               >

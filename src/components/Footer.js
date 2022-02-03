@@ -57,7 +57,7 @@ const Footer = () => {
           </Row>
           <Row>
             <a
-              href="https://drive.google.com/file/d/1hJAV76Q-6tC1ZyIkkl3cXcX87wwGmHZA/view?usp=sharing"
+              href="https://drive.google.com/file/d/14mmSTmzI52gB_UGoVd3Tvp-IiFLloSJR/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
@@ -71,7 +71,10 @@ const Footer = () => {
           <Row>Virtual Assistance</Row>
         </Container>
         <div className="author" style={{ paddingBottom: "10px" }}>
-          <Row className="author-details">Joshua Fontiveros &copy; {year}</Row>
+          <Row className="author-details">
+            Made in ReactJS with a little bit React-Bootstrap. Maintained by
+            Joshua Fontiveros &copy; {year}
+          </Row>
         </div>
       </div>
     </React.Fragment>
