@@ -70,10 +70,8 @@ const Footer = () => {
           <Row>Web Development</Row>
           <Row>Virtual Assistance</Row>
         </Container>
-        <div className="author">
-          <Row className="author-details">
-            Joshua Fontiveros &copy; {year} | Images from freepik
-          </Row>
+        <div className="author" style={{ paddingBottom: "10px" }}>
+          <Row className="author-details">Joshua Fontiveros &copy; {year}</Row>
         </div>
       </div>
     </React.Fragment>

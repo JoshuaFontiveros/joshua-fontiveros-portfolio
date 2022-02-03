@@ -5,6 +5,7 @@ import "./About.css";
 import Joshua from "../assets/joshua_photo.jpg";
 
 const About = () => {
+  const git = 95;
   const html = 90;
   const css = 85;
   const bootstrap = 89;
@@ -22,8 +23,11 @@ const About = () => {
           </Container>
         </Container>
         <Container className="details-container ">
-          <Container className="d-flex justify-content-center flex-wrap">
-            <h3>I am a full-stack web developer using these tech stack: </h3>
+          <Container className="d-flex justify-content-start flex-wrap">
+            <h3>
+              Results driven web developer, seeking to use proven ReactJS with
+              NodeJS skills to deliver coding excellence
+            </h3>
           </Container>
         </Container>
         {/* <Container className="merc-desc "> */}
@@ -64,24 +68,66 @@ const About = () => {
               <div className="img-about">
                 <img src={Joshua} alt="" />
               </div>
-              <p className="about-paragraph">
-                Hello, I am Joshua and I am 25 years old. I am working as an
-                eCommerce Listing Specialist for almost three years now. Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. At rem
-                consequuntur harum enim tenetur vel nobis nesciunt sed numquam
-                optio. Fugit, veritatis ipsa optio alias iure ducimus
-                consectetur eligendi! Inventore. Lorem ipsum dolor, sit amet
-                consectetur adipisicing elit. Exercitationem, vero fugit nostrum
-                dignissimos quod at sed provident vitae dicta deleniti. Odio
-                temporibus molestiae eum fuga, doloribus quaerat possimus quas
-                soluta.
-              </p>
+              <div
+                style={{ marginTop: "10px" }}
+                dangerouslySetInnerHTML={{
+                  __html: `<p> <q>The advance of technology is based on making it fit in so that
+                you don't really even notice it, so it's part of everyday life.</q>
+                -- <strong>Bill Gates, co-founder of Microsoft. </strong> 
+                <br/> 
+                <br/>
+                As a full-stack web
+                developer, my job is to <strong>make advanced technology fit for
+                people's everyday lives</strong>
+
+           
+                I do this by <strong>
+                constantly improving my
+                knowledge and skills by continuously creating functional full-stack
+                applications. 
+                </strong>
+                <br/>
+                <br/>
+                During my study at <strong>Uplift Code Camp</strong>, I have honed
+               <strong> strong analytical, logical, and programming skills </strong> that will
+                serve me well in tech industry. For the past six months, I was
+                able to gain expertise in full-stack web development by creating
+                full-stack apps. I've created websites, game apps, restaurant
+                apps, and sales and inventory systems in a given short amount of
+                time. 
+                <br/>
+                <br/>
+                As we all know, 2020 was a challenging year. At first, it
+                was difficult because I lost my job for three months, and <strong>that
+                didn't stop me. I see that as an opportunity for me to grow not
+                only as a person but also intellectually. I used that time to
+                gain more skills and expertise in remote collaborative tools
+                such as Google Workspace, Microsoft Apps, and Canva for my previous job </strong>. 
+                
+                <br/>
+                <br/>
+                You can
+                view samples of my projects I learned in <strong>Uplift Code Camp</strong> in this portfolio
+                to learn more about your expectations for your next front-end developer <strong>/</strong> full-stack
+                developer, I would welcome the opportunity for personal
+                interview. Thank you for your time, consideration, and
+                forthcoming response.</p>`,
+                }}
+              ></div>
+              <p className="about-paragraph"></p>
             </div>
           </Container>
 
           <Container className="progress-container  d-flex justify-content-center align-items-center">
             <h1 className="skills-text">Skills</h1>
             <Container fluid="sm" className="progress-details">
+              <span>Git</span>
+              <ProgressBar
+                style={{ backgroundColor: "#F5F5F5" }}
+                now={git}
+                label={`${git}%`}
+                variant="success"
+              />
               <span>HTML</span>
               <ProgressBar
                 style={{ backgroundColor: "#F5F5F5" }}

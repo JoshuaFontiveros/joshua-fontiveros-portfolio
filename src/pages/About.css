@@ -1,5 +1,5 @@
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 375px) {
+@media (min-width: 0px) {
   .about {
     background-color: rgb(245, 245, 245);
     width: 100vw;

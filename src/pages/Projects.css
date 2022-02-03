@@ -9,7 +9,7 @@
 .project-details-container {
   overflow: hidden;
 }
-@media (min-width: 375px) {
+@media (min-width: 0px) {
   .projects {
     background-color: rgb(245, 245, 245);
     color: rgb(0, 0, 0);

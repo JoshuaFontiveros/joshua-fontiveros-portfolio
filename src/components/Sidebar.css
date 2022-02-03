@@ -212,7 +212,7 @@ nav img {
   margin-top: 5px;
 }
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 360px) {
+@media (min-width: 0px) {
   .nav-items-topbar,
   .name-topbar {
     display: none;
