@@ -11,6 +11,7 @@ const About = () => {
   const bootstrap = 89;
   const javascript = 88;
   const reactJS = 83;
+  const nodeJS = 80;
   const expressJS = 85;
   const mongoDB = 80;
 
@@ -154,11 +155,18 @@ const About = () => {
                 label={`${reactJS}%`}
                 variant="success"
               />
-              <span>ExpressJS</span>
+              <span>ReactJS</span>
               <ProgressBar
                 style={{ backgroundColor: "#F5F5F5" }}
-                now={expressJS}
-                label={`${expressJS}%`}
+                now={reactJS}
+                label={`${reactJS}%`}
+                variant="success"
+              />
+              <span>NodeJS</span>
+              <ProgressBar
+                style={{ backgroundColor: "#F5F5F5" }}
+                now={nodeJS}
+                label={`${nodeJS}%`}
                 variant="success"
               />
               <span>MongoDB</span>
