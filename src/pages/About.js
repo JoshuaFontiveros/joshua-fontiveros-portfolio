@@ -155,18 +155,19 @@ const About = () => {
                 label={`${reactJS}%`}
                 variant="success"
               />
-              <span>ReactJS</span>
-              <ProgressBar
-                style={{ backgroundColor: "#F5F5F5" }}
-                now={reactJS}
-                label={`${reactJS}%`}
-                variant="success"
-              />
+
               <span>NodeJS</span>
               <ProgressBar
                 style={{ backgroundColor: "#F5F5F5" }}
                 now={nodeJS}
                 label={`${nodeJS}%`}
+                variant="success"
+              />
+              <span>ExpressJS</span>
+              <ProgressBar
+                style={{ backgroundColor: "#F5F5F5" }}
+                now={expressJS}
+                label={`${expressJS}%`}
                 variant="success"
               />
               <span>MongoDB</span>
