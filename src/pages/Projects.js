@@ -78,7 +78,7 @@ const Projects = () => {
                   </Button>
                 </a>
                 <a
-                  href="https://joshuafontiveros.github.io/project1-joshua-f.github.io/"
+                  href="https://github.com/JoshuaFontiveros/project1-joshua-f.github.io"
                   rel="noreferrer"
                   target="_blank"
                 >
