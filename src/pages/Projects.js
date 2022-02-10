@@ -24,7 +24,7 @@ const Projects = () => {
   const project_3 = 100;
   const project_4 = 100;
   const project_5 = 100;
-  const project_6 = 70;
+  const project_6 = 80;
   const project_7 = 100;
 
   return (
@@ -47,7 +47,7 @@ const Projects = () => {
               </Tooltip>
             }
           >
-            <Container className="progress-container black">
+            <Container className="progress-container white">
               <Row className="project-preview">
                 <img src={project1} alt="" />
               </Row>
@@ -66,9 +66,9 @@ const Projects = () => {
               >
                 <a>
                   <Button
-                    variant="outline-light"
+                    variant="outline-dark"
                     className="view-button"
-                    style={{ margin: "10px 0 10px 5px" }}
+                    style={{ margin: "10px 0 10px 5px", width: "120px" }}
                     onClick={() => alert("To be re-deployed soon. ")}
                   >
                     Live Demo
@@ -80,9 +80,9 @@ const Projects = () => {
                   target="_blank"
                 >
                   <Button
-                    variant="outline-light"
+                    variant="outline-dark"
                     className="view-button"
-                    style={{ margin: "10px 0 10px 0" }}
+                    style={{ margin: "10px 0 10px 5px", width: "120px" }}
                   >
                     Github
                   </Button>
@@ -90,21 +90,6 @@ const Projects = () => {
               </div>
             </Container>
           </OverlayTrigger>
-          <Container className="empty-container empty">
-            <Row className="project-preview">
-              <img src={project1} alt="" />
-            </Row>
-          </Container>
-          <Container className="empty-container empty">
-            <Row className="project-preview">
-              <img src={project1} alt="" />
-            </Row>
-          </Container>
-          <Container className="empty-container empty">
-            <Row className="project-preview">
-              <img src={project1} alt="" />
-            </Row>
-          </Container>
           <OverlayTrigger
             placement="top"
             delay={{ show: 300, hide: 500 }}
@@ -140,7 +125,7 @@ const Projects = () => {
                   <Button
                     variant="outline-dark"
                     className="view-button"
-                    style={{ margin: "10px 0 10px 5px" }}
+                    style={{ margin: "10px 0 10px 5px", width: "120px" }}
                   >
                     Live Demo
                   </Button>
@@ -153,7 +138,7 @@ const Projects = () => {
                   <Button
                     variant="outline-dark"
                     className="view-button"
-                    style={{ margin: "10px 0 10px 0" }}
+                    style={{ margin: "10px 0 10px 5px", width: "120px" }}
                   >
                     Github
                   </Button>
@@ -161,21 +146,7 @@ const Projects = () => {
               </div>
             </Container>
           </OverlayTrigger>
-          <Container className="empty-container empty">
-            <Row className="project-preview">
-              <img src={project1} alt="" />
-            </Row>
-          </Container>
-          <Container className="empty-container empty">
-            <Row className="project-preview">
-              <img src={project1} alt="" />
-            </Row>
-          </Container>
-          <Container className="empty-container empty">
-            <Row className="project-preview">
-              <img src={project1} alt="" />
-            </Row>
-          </Container>
+
           <OverlayTrigger
             placement="top"
             delay={{ show: 300, hide: 500 }}
@@ -188,7 +159,7 @@ const Projects = () => {
               </Tooltip>
             }
           >
-            <Container className="progress-container black">
+            <Container className="progress-container white">
               <Row className="project-preview">
                 <img src={project3} alt="" />
               </Row>
@@ -210,9 +181,9 @@ const Projects = () => {
                   target="_blank"
                 >
                   <Button
-                    variant="outline-light"
+                    variant="outline-dark"
                     className="view-button"
-                    style={{ margin: "10px 0 10px 5px" }}
+                    style={{ margin: "10px 0 10px 5px", width: "120px" }}
                   >
                     Live Demo
                   </Button>
@@ -223,9 +194,9 @@ const Projects = () => {
                   target="_blank"
                 >
                   <Button
-                    variant="outline-light"
+                    variant="outline-dark"
                     className="view-button"
-                    style={{ margin: "10px 0 10px 0" }}
+                    style={{ margin: "10px 0 10px 5px", width: "120px" }}
                   >
                     Github
                   </Button>
@@ -233,16 +204,6 @@ const Projects = () => {
               </div>
             </Container>
           </OverlayTrigger>
-          <Container className="empty-container empty">
-            <Row className="project-preview">
-              <img src={project1} alt="" />
-            </Row>
-          </Container>
-          <Container className="empty-container">
-            <Row className="project-preview">
-              <img src={project1} alt="" />
-            </Row>
-          </Container>
           <OverlayTrigger
             placement="top"
             delay={{ show: 300, hide: 500 }}
@@ -279,7 +240,7 @@ const Projects = () => {
                   <Button
                     variant="outline-dark"
                     className="view-button"
-                    style={{ margin: "10px 0 10px 5px" }}
+                    style={{ margin: "10px 0 10px 5px", width: "120px" }}
                   >
                     Live Demo
                   </Button>
@@ -292,7 +253,7 @@ const Projects = () => {
                   <Button
                     variant="outline-dark"
                     className="view-button"
-                    style={{ margin: "10px 0 10px 0" }}
+                    style={{ margin: "10px 0 10px 5px", width: "120px" }}
                   >
                     Github
                   </Button>
@@ -300,21 +261,7 @@ const Projects = () => {
               </div>
             </Container>
           </OverlayTrigger>
-          <Container className="empty-container empty">
-            <Row className="project-preview">
-              <img src={project1} alt="" />
-            </Row>
-          </Container>
-          <Container className="empty-container">
-            <Row className="project-preview">
-              <img src={project1} alt="" />
-            </Row>
-          </Container>
-          <Container className="empty-container">
-            <Row className="project-preview">
-              <img src={project1} alt="" />
-            </Row>
-          </Container>
+
           <OverlayTrigger
             placement="top"
             delay={{ show: 300, hide: 500 }}
@@ -326,7 +273,7 @@ const Projects = () => {
               </Tooltip>
             }
           >
-            <Container className="progress-container black">
+            <Container className="progress-container white">
               <Row className="project-preview">
                 <img src={project5} alt="" />
               </Row>
@@ -349,9 +296,9 @@ const Projects = () => {
                   target="_blank"
                 >
                   <Button
-                    variant="outline-light"
+                    variant="outline-dark"
                     className="view-button"
-                    style={{ margin: "10px 0 10px 5px" }}
+                    style={{ margin: "10px 0 10px 5px", width: "120px" }}
                   >
                     Live Demo
                   </Button>
@@ -362,9 +309,9 @@ const Projects = () => {
                   target="_blank"
                 >
                   <Button
-                    variant="outline-light"
+                    variant="outline-dark"
                     className="view-button"
-                    style={{ margin: "10px 0 10px 0" }}
+                    style={{ margin: "10px 0 10px 5px", width: "120px" }}
                   >
                     Github
                   </Button>
@@ -372,21 +319,7 @@ const Projects = () => {
               </div>
             </Container>
           </OverlayTrigger>
-          <Container className="empty-container empty">
-            <Row className="project-preview">
-              <img src={project1} alt="" />
-            </Row>
-          </Container>
-          <Container className="empty-container empty">
-            <Row className="project-preview">
-              <img src={project1} alt="" />
-            </Row>
-          </Container>
-          <Container className="empty-container empty">
-            <Row className="project-preview">
-              <img src={project1} alt="" />
-            </Row>
-          </Container>
+
           <OverlayTrigger
             placement="top"
             delay={{ show: 300, hide: 500 }}
@@ -402,7 +335,7 @@ const Projects = () => {
               <Row className="project-preview">
                 <img src={project6} alt="" />
               </Row>
-              <span>SnackStop Sales & Inventory System Full-Stack App</span>
+              <span>Snackstop MERN Stack</span>
 
               <ProgressBar
                 className="progress-bar white"
@@ -421,7 +354,7 @@ const Projects = () => {
                     variant="outline-dark"
                     className="view-button"
                     onClick={() => alert(`To be deployed soon!`)}
-                    style={{ margin: "10px 0 10px 5px" }}
+                    style={{ margin: "10px 0 10px 5px", width: "120px" }}
                   >
                     Live Demo
                   </Button>
@@ -431,7 +364,7 @@ const Projects = () => {
                     onClick={() => alert("To be redeployed soon!")}
                     variant="outline-dark"
                     className="view-button"
-                    style={{ margin: "10px 0 10px 0" }}
+                    style={{ margin: "10px 0 10px 5px", width: "120px" }}
                   >
                     Github
                   </Button>
@@ -439,21 +372,6 @@ const Projects = () => {
               </div>
             </Container>
           </OverlayTrigger>
-          <Container className="empty-container empty">
-            <Row className="project-preview">
-              <img src={project1} alt="" />
-            </Row>
-          </Container>
-          <Container className="empty-container empty">
-            <Row className="project-preview">
-              <img src={project1} alt="" />
-            </Row>
-          </Container>
-          <Container className="empty-container empty">
-            <Row className="project-preview">
-              <img src={project1} alt="" />
-            </Row>
-          </Container>
           <OverlayTrigger
             placement="top"
             delay={{ show: 300, hide: 500 }}
@@ -468,7 +386,7 @@ const Projects = () => {
               </Tooltip>
             }
           >
-            <Container className="progress-container black">
+            <Container className="progress-container white">
               <Row className="project-preview">
                 <img src={group_project} alt="" />
               </Row>
@@ -490,9 +408,9 @@ const Projects = () => {
                   target="_blank"
                 >
                   <Button
-                    variant="outline-light"
+                    variant="outline-dark"
                     className="view-button"
-                    style={{ margin: "10px 0 10px 5px" }}
+                    style={{ margin: "10px 0 10px 5px", width: "120px" }}
                   >
                     Live Demo
                   </Button>
@@ -503,24 +421,11 @@ const Projects = () => {
                   target="_blank"
                 >
                   <Button
-                    variant="outline-light"
+                    variant="outline-dark"
                     className="view-button"
-                    style={{ margin: "10px 0 10px 0" }}
+                    style={{ margin: "10px 0 10px 5px", width: "120px" }}
                   >
-                    Github FE
-                  </Button>
-                </a>
-                <a
-                  href="https://github.com/jll24/tiny-server"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <Button
-                    variant="outline-light"
-                    className="view-button"
-                    style={{ margin: "10px 0 10px 0" }}
-                  >
-                    Github BE
+                    Github
                   </Button>
                 </a>
               </div>
