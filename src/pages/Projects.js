@@ -64,12 +64,15 @@ const Projects = () => {
                 className="d-flex justify-content-evenly"
                 style={{ width: "100%" }}
               >
-                <a>
+                <a
+                  href="https://joshuafontiveros.github.io/project1-joshua-f.github.io/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <Button
                     variant="outline-dark"
                     className="view-button"
                     style={{ margin: "10px 0 10px 5px", width: "120px" }}
-                    onClick={() => alert("To be re-deployed soon. ")}
                   >
                     Live Demo
                   </Button>
@@ -349,19 +352,25 @@ const Projects = () => {
                 className="d-flex justify-content-evenly"
                 style={{ width: "100%" }}
               >
-                <a>
+                <a
+                  href="https://snackstop.herokuapp.com/products/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <Button
                     variant="outline-dark"
                     className="view-button"
-                    onClick={() => alert(`To be deployed soon!`)}
                     style={{ margin: "10px 0 10px 5px", width: "120px" }}
                   >
                     Live Demo
                   </Button>
                 </a>
-                <a>
+                <a
+                  href="https://github.com/JoshuaFontiveros/snackstop-frontend"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   <Button
-                    onClick={() => alert("To be redeployed soon!")}
                     variant="outline-dark"
                     className="view-button"
                     style={{ margin: "10px 0 10px 5px", width: "120px" }}
